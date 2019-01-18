@@ -11,12 +11,18 @@ package ca.sheridancollege.week1.softwarefundamentals;
  */
 public class Student {
 
+    /**
+     * @return the Program
+     */
+    
+
     /**Model class student
      * Having name, ID 
      * @param args the command line arguments
      */
     private String name;
     private int ID;
+    private String Program;
 
     public Student(String givenName, int givenID)
     {
@@ -26,6 +32,16 @@ public class Student {
     /**
      * @return the name
      */
+    public String getProgram() {
+        return Program;
+    }
+
+    /**
+     * @param Program the Program to set
+     */
+    public void setProgram(String Program) {
+        this.Program = Program;
+    }
     public String getName() {
         return name;
     }
