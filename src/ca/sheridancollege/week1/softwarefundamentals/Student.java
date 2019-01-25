@@ -23,6 +23,7 @@ public class Student {
     private String name;
     private int ID;
     private String Program;
+    private int maxCourse;
 
     public Student(String givenName, int givenID)
     {
@@ -65,6 +66,20 @@ public class Student {
      */
     public void setID(int givenID) {
         ID = givenID;
+    }
+
+    /**
+     * @return the maxCourse
+     */
+    public int getMaxCourse() {
+        return maxCourse;
+    }
+
+    /**
+     * @param maxCourse the maxCourse to set
+     */
+    public void setMaxCourse(int maxCourse) {
+        this.maxCourse = maxCourse;
     }
     
     
