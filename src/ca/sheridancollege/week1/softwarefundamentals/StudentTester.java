@@ -28,6 +28,7 @@ public class StudentTester {
         {
             System.out.println(studentList[i].getID());
             System.out.println("Hi");
+            System.out.println("how r u?");
         }
         
     }
